@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-15T15:21:35 PDT" name="Ninja-Suite" finished-at="2023-10-15T15:24:07 PDT" duration-ms="152379">
+    <groups>
+    </groups>
+    <test started-at="2023-10-15T15:21:35 PDT" name="Ninja-Hybrid_Framework-Test" finished-at="2023-10-15T15:24:07 PDT" duration-ms="152379">
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Links_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Links_Test@34123d65]" started-at="2023-10-15T15:23:50 PDT" name="setUp" finished-at="2023-10-15T15:23:53 PDT" duration-ms="3429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkTests()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Links_Test@34123d65]" started-at="2023-10-15T15:23:53 PDT" name="linkTests" finished-at="2023-10-15T15:24:07 PDT" duration-ms="13395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Links_Test@34123d65]" started-at="2023-10-15T15:24:07 PDT" name="tearDown" finished-at="2023-10-15T15:24:07 PDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Links_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Landing_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:35 PDT" name="setUp" finished-at="2023-10-15T15:21:40 PDT" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePageTitleAndUrl()[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:40 PDT" name="validatePageTitleAndUrl" finished-at="2023-10-15T15:21:40 PDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitleAndUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:40 PDT" name="tearDown" finished-at="2023-10-15T15:21:40 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:40 PDT" name="setUp" finished-at="2023-10-15T15:21:43 PDT" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceOfQAFoxLink()[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:43 PDT" name="presenceOfQAFoxLink" finished-at="2023-10-15T15:21:43 PDT" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfQAFoxLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Landing_Test@130d63be]" started-at="2023-10-15T15:21:43 PDT" name="tearDown" finished-at="2023-10-15T15:21:44 PDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Landing_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Logging_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:44 PDT" name="setUp" finished-at="2023-10-15T15:21:47 PDT" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:47 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:21:48 PDT" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shajlee@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:48 PDT" name="tearDown" finished-at="2023-10-15T15:21:48 PDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:48 PDT" name="setUp" finished-at="2023-10-15T15:21:51 PDT" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:51 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:21:52 PDT" duration-ms="1304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rifi_luver@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniqa1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:52 PDT" name="tearDown" finished-at="2023-10-15T15:21:53 PDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:53 PDT" name="setUp" finished-at="2023-10-15T15:21:56 PDT" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:56 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:21:57 PDT" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:57 PDT" name="tearDown" finished-at="2023-10-15T15:21:57 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:21:57 PDT" name="setUp" finished-at="2023-10-15T15:22:00 PDT" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:00 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:22:01 PDT" duration-ms="1325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygsa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:01 PDT" name="tearDown" finished-at="2023-10-15T15:22:01 PDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:01 PDT" name="setUp" finished-at="2023-10-15T15:22:04 PDT" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:04 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:22:06 PDT" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiyaan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:06 PDT" name="tearDown" finished-at="2023-10-15T15:22:06 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:06 PDT" name="setUp" finished-at="2023-10-15T15:22:09 PDT" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:09 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:22:10 PDT" duration-ms="1316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poultry13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:10 PDT" name="tearDown" finished-at="2023-10-15T15:22:10 PDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:10 PDT" name="setUp" finished-at="2023-10-15T15:22:13 PDT" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:13 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:22:14 PDT" duration-ms="1362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:14 PDT" name="tearDown" finished-at="2023-10-15T15:22:15 PDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:15 PDT" name="setUp" finished-at="2023-10-15T15:22:18 PDT" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:18 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="NinjaDataProvider_DataSupply" finished-at="2023-10-15T15:22:19 PDT" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golamchodhury@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:19 PDT" name="tearDown" finished-at="2023-10-15T15:22:19 PDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:20 PDT" name="setUp" finished-at="2023-10-15T15:22:23 PDT" duration-ms="2892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:23 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:24 PDT" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shajlee@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:24 PDT" name="tearDown" finished-at="2023-10-15T15:22:24 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:24 PDT" name="setUp" finished-at="2023-10-15T15:22:27 PDT" duration-ms="2904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:27 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:28 PDT" duration-ms="1290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rifi_luver@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniqa1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:28 PDT" name="tearDown" finished-at="2023-10-15T15:22:28 PDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:28 PDT" name="setUp" finished-at="2023-10-15T15:22:31 PDT" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:31 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:33 PDT" duration-ms="1304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:33 PDT" name="tearDown" finished-at="2023-10-15T15:22:33 PDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:33 PDT" name="setUp" finished-at="2023-10-15T15:22:36 PDT" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:36 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:37 PDT" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygsa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:37 PDT" name="tearDown" finished-at="2023-10-15T15:22:37 PDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:37 PDT" name="setUp" finished-at="2023-10-15T15:22:40 PDT" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:40 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:42 PDT" duration-ms="1310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:42 PDT" name="tearDown" finished-at="2023-10-15T15:22:42 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:42 PDT" name="setUp" finished-at="2023-10-15T15:22:45 PDT" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:45 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:46 PDT" duration-ms="1324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiyaan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:46 PDT" name="tearDown" finished-at="2023-10-15T15:22:46 PDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:46 PDT" name="setUp" finished-at="2023-10-15T15:22:49 PDT" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:49 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:50 PDT" duration-ms="1294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poultry13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:50 PDT" name="tearDown" finished-at="2023-10-15T15:22:50 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:50 PDT" name="setUp" finished-at="2023-10-15T15:22:53 PDT" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheetDataSupply(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:53 PDT" name="loginWithValidCredentialsUsingExcelSheetDataSupply" data-provider="NinjaExcelDataWithDataProvider" finished-at="2023-10-15T15:22:54 PDT" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golamchodhury@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheetDataSupply -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:54 PDT" name="tearDown" finished-at="2023-10-15T15:22:55 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:55 PDT" name="setUp" finished-at="2023-10-15T15:22:58 PDT" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials()[pri:3, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:58 PDT" name="loginWithInvalidCredentials" finished-at="2023-10-15T15:22:59 PDT" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:59 PDT" name="tearDown" finished-at="2023-10-15T15:22:59 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:22:59 PDT" name="setUp" finished-at="2023-10-15T15:23:02 PDT" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:4, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:02 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2023-10-15T15:23:03 PDT" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:03 PDT" name="tearDown" finished-at="2023-10-15T15:23:03 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:03 PDT" name="setUp" finished-at="2023-10-15T15:23:06 PDT" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidUsernameValidPassword()[pri:5, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:06 PDT" name="loginWithInvalidUsernameValidPassword" finished-at="2023-10-15T15:23:07 PDT" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:07 PDT" name="tearDown" finished-at="2023-10-15T15:23:07 PDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:07 PDT" name="setUp" finished-at="2023-10-15T15:23:10 PDT" duration-ms="2963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithNoCredentials()[pri:6, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:10 PDT" name="loginWithNoCredentials" finished-at="2023-10-15T15:23:11 PDT" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logging_Test@77888435]" started-at="2023-10-15T15:23:11 PDT" name="tearDown" finished-at="2023-10-15T15:23:11 PDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Logging_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Search_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:41 PDT" name="setUp" finished-at="2023-10-15T15:23:45 PDT" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:45 PDT" name="searchWithValidProduct" finished-at="2023-10-15T15:23:45 PDT" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:45 PDT" name="tearDown" finished-at="2023-10-15T15:23:46 PDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:46 PDT" name="setUp" finished-at="2023-10-15T15:23:49 PDT" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:49 PDT" name="searchWithInvalidProduct" finished-at="2023-10-15T15:23:50 PDT" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Search_Test@4802796d]" started-at="2023-10-15T15:23:50 PDT" name="tearDown" finished-at="2023-10-15T15:23:50 PDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Search_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Logout_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logout_Test@71d44a3]" started-at="2023-10-15T15:23:16 PDT" name="setUp" finished-at="2023-10-15T15:23:23 PDT" duration-ms="7417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logout_Test@71d44a3]" started-at="2023-10-15T15:23:23 PDT" name="logoutTest" finished-at="2023-10-15T15:23:25 PDT" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Logout_Test@71d44a3]" started-at="2023-10-15T15:23:25 PDT" name="tearDown" finished-at="2023-10-15T15:23:25 PDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Logout_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Register_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:25 PDT" name="setUp" finished-at="2023-10-15T15:23:28 PDT" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithRequiredFields()[pri:1, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:28 PDT" name="registerWithRequiredFields" finished-at="2023-10-15T15:23:30 PDT" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithRequiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:30 PDT" name="tearDown" finished-at="2023-10-15T15:23:30 PDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:30 PDT" name="setUp" finished-at="2023-10-15T15:23:34 PDT" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithAllFields()[pri:2, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:34 PDT" name="registerWithAllFields" finished-at="2023-10-15T15:23:36 PDT" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:36 PDT" name="tearDown" finished-at="2023-10-15T15:23:36 PDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:36 PDT" name="setUp" finished-at="2023-10-15T15:23:39 PDT" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithoutAnyDetails()[pri:3, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:39 PDT" name="RegisterWithoutAnyDetails" finished-at="2023-10-15T15:23:41 PDT" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithoutAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Register_Test@7b98f307]" started-at="2023-10-15T15:23:41 PDT" name="tearDown" finished-at="2023-10-15T15:23:41 PDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Register_Test -->
+      <class name="com.qa.hybridninja.testcases.HybridNinja_Inbox_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Inbox_Test@73a1e9a9]" started-at="2023-10-15T15:23:11 PDT" name="setUp" finished-at="2023-10-15T15:23:14 PDT" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Inbox_Test@73a1e9a9]" started-at="2023-10-15T15:23:14 PDT" name="validLogin" finished-at="2023-10-15T15:23:16 PDT" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridninja.testcases.HybridNinja_Inbox_Test@73a1e9a9]" started-at="2023-10-15T15:23:16 PDT" name="tearDown" finished-at="2023-10-15T15:23:16 PDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridninja.testcases.HybridNinja_Inbox_Test -->
+    </test> <!-- Ninja-Hybrid_Framework-Test -->
+  </suite> <!-- Ninja-Suite -->
+</testng-results>
